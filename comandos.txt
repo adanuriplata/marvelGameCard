@@ -1,0 +1,21 @@
+comandos
+escuchar cambios 
+stylus app.styl -w
+
+comprimir archivo
+stylus app.styl -c
+
+instalar jade (ahora pug)
+npm install -g pug
+
+compilar jade
+jade index.jade
+pug index.jade
+
+html legible en jade 
+jade index.jade -P   <---la "P" es mayuscula
+pug index.jade -P   <---la "P" es mayuscula
+
+exportar archivo  a otra carpeta
+stylus -w -c -o ../public/css/ app.styl
+

@@ -1,0 +1,18 @@
+.Card {
+  width: 200px;
+  background: #c2ac37;
+  border: 5px solid #808080;
+  border-radius: 0.5em;
+}
+.Card-description {
+  background: #fff;
+  padding: 0.5em;
+  font-size: 12px;
+}
+.Card-image {
+  width: 100%;
+}
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
