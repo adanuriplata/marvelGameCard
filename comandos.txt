@@ -19,3 +19,10 @@ pug index.jade -P   <---la "P" es mayuscula
 exportar archivo  a otra carpeta
 stylus -w -c -o ../public/css/ app.styl
 
+instalr nib
+npm install nib -g
+
+compilar stylus junto con nib
+stylus -u nib -w  -o ../public/css app.styl
+
+
